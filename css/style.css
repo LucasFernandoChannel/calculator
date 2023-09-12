@@ -1,0 +1,117 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* My code */
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+#calculator {
+    background-color: #1c1c1c;
+    border-radius: 10px;
+    font-size: 0px;
+    letter-spacing: 0px;
+    margin: 20px 0 0 20px;
+    padding: 30px;
+    width: 415px;
+    word-spacing: 0px;
+}
+
+#display {
+    background-color: #505050;
+    color: #ffffff;
+    font-size: 28pt;
+    margin-bottom: 5px;
+    padding-top: 50px;
+    text-align: right;
+}
+
+.btn-ac, .btn-digit, .btn-symbol {
+    color: #000000;
+    display: inline-block;
+    font-size: 24pt;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.btn-ac {
+    margin: 0 5px 5px 0;
+    width: 205px;
+}
+
+.btn-digit, .btn-symbol {
+    margin: 0 5px 5px 0;
+    width: 100px;
+}
+
+#zero {
+    margin: 0 5px 0 0;
+    width: 205px;
+}
+
+#division, #multiplication, #subtraction, #addition {
+    margin: 0 0 5px 0;
+}
+
+#equal {
+    margin: 0;
+}
+
+#point {
+    margin: 0 5px 0 0;
+}
+
+.btn-symbol {
+    background-color: #ff9500;
+}
+
+.btn-ac, .btn-digit, #porcentage, #point {
+    background-color: #d4d4d2;
+}
